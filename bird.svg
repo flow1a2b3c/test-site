@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512" role="img" aria-label="Simple bird icon">
+  <!-- Transparent background (no background rect) -->
+
+  <!-- Simple bird composed of basic shapes -->
+  <g fill="none" stroke="none" stroke-linejoin="round">
+    <!-- Body -->
+    <ellipse cx="220" cy="300" rx="120" ry="80" fill="#1E90FF" />
+
+    <!-- Wing (simple rounded ellipse) -->
+    <ellipse cx="180" cy="280" rx="60" ry="40" fill="#1C64F2" transform="rotate(-25 180 280)" />
+
+    <!-- Head -->
+    <circle cx="320" cy="240" r="44" fill="#1E90FF" />
+
+    <!-- Beak (small triangle) -->
+    <polygon points="362,240 402,254 362,268" fill="#FFA500" />
+
+    <!-- Tail feathers (two simple polygons) -->
+    <polygon points="100,320 60,300 100,360" fill="#1652C7" />
+    <polygon points="110,340 70,340 100,300" fill="#1652C7" opacity="0.9" />
+
+    <!-- Eye + highlight (repositioned closer to beak) -->
+    <circle cx="336" cy="238" r="8" fill="#111827" />
+    <circle cx="341" cy="234" r="2.4" fill="#ffffff" opacity="0.95" />
+
+    <!-- Subtle belly highlight -->
+    <ellipse cx="220" cy="320" rx="60" ry="30" fill="#93C5FD" opacity="0.25" />
+  </g>
+</svg>

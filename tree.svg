@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512" role="img" aria-label="Simple tree icon">
+  <!-- Transparent background (no rect) -->
+  <!-- Trunk -->
+  <rect x="236" y="300" width="40" height="120" rx="6" fill="#8B5A2B" />
+
+  <!-- Canopy: three overlapping circles -->
+  <g fill="#2E8B57" stroke="#1E5E3E" stroke-width="4">
+    <circle cx="256" cy="220" r="90" />
+    <circle cx="200" cy="260" r="70" />
+    <circle cx="312" cy="260" r="70" />
+  </g>
+
+  <!-- Small highlights -->
+  <g fill="#3CB371" opacity="0.65">
+    <path d="M210 200c10-18 40-30 60-24-18 8-34 20-46 36-10-8-14-8-14-12z" />
+    <path d="M320 220c6-12 28-18 42-12-14 6-28 14-38 26-8-10-8-12-4-14z" />
+  </g>
+
+</svg>
